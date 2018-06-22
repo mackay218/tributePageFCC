@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Coda', cursive;
+  background-color: white;
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family:'Open Sans', sans-serif;
+  text-align:center;
+  font-size:100px;
+  color:black;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color:white;
+  margin-top:2px;
+  z-index: 2;
+}
+
+.container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.portrait{
+  max-width: 600px;
+  width: 90%;
+}
+
+.info{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
